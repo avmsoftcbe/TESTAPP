@@ -14,7 +14,7 @@ namespace TestApp.Platforms.Android
     public class WebAuthenticationCallbackActivity : Microsoft.Maui.Authentication.WebAuthenticatorCallbackActivity
     {
         const string CALLBACK_SCHEME = "TestApp";
-        const string CALLBACK_HOST = "oauth2redirect";
+        const string CALLBACK_HOST = "Oauth2redirect";
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);

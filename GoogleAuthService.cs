@@ -14,9 +14,9 @@ namespace TestApp
 
     public class GoogleAuthService
     {
-        private const string ClientId = "1071284067417-qu97f9avhf5v4ccsh7rakiimo3ibp537.apps.googleusercontent.com";
+        private const string ClientId = "1071284067417-ap9d2jsb7l6858vgb9ul2oc554pluqfl.apps.googleusercontent.com";
         private const string ClientSecret = "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";
-        private const string RedirectUri = "TestApp:/oauth2redirect";
+        private const string RedirectUri = "org.shabari.sansthan.testapp://Oauth2redirect";
 
         public static async Task<string> SignInWithGoogleAsync()
         {
